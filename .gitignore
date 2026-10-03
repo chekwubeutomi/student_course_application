@@ -1,6 +1,12 @@
-# ---------- Build artifacts ----------
-obj/
-bin/
+# Code::Blocks build output
+/bin/
+/obj/
+*.depend
+*.layout
+.cbmk/
+*.cbTemp
+
+# Compiled files
 *.o
 *.obj
 *.exe
@@ -11,29 +17,21 @@ bin/
 *.d
 *.out
 
-# ---------- Code::Blocks ----------
-*.depend
-*.layout
-.cbmk/
-*.cbTemp
+# Runtime course saves; keep the checked-in input data
+/*.txt
+!/Math.txt
+!/students.txt
 
-# ---------- Program output (data files) ----------
-# Your program writes these at runtime — don't commit them
-*.txt
-!sample_*.txt
-
-# ---------- OS junk ----------
-Thumbs.db
-desktop.ini
-.DS_Store
-
-# ---------- Editor / IDE junk ----------
+# Logs and temporary files
+*.log
 *~
 *.bak
 *.swp
 *.swo
+
+# IDE and operating system files
 .vscode/
 .idea/
-
-# ---------- Compiled binaries and logs ----------
-*.log
+Thumbs.db
+desktop.ini
+.DS_Store
