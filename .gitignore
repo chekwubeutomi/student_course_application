@@ -1,0 +1,39 @@
+# ---------- Build artifacts ----------
+obj/
+bin/
+*.o
+*.obj
+*.exe
+*.a
+*.lib
+*.dll
+*.so
+*.d
+*.out
+
+# ---------- Code::Blocks ----------
+*.depend
+*.layout
+.cbmk/
+*.cbTemp
+
+# ---------- Program output (data files) ----------
+# Your program writes these at runtime — don't commit them
+*.txt
+!sample_*.txt
+
+# ---------- OS junk ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---------- Editor / IDE junk ----------
+*~
+*.bak
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ---------- Compiled binaries and logs ----------
+*.log

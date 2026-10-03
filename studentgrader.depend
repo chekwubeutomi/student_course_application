@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1791009329 source:c:\users\chekw\dev\studentgrader\student.cpp
+	"Student.h"
+	<stdexcept>
+	<iostream>
+
+1791009037 c:\users\chekw\dev\studentgrader\student.h
+	<string>
+
+1791022182 source:c:\users\chekw\dev\studentgrader\main.cpp
+	<iostream>
+	<memory>
+	"Course.h"
+	"Student.h"
+	"GraduateStudent.h"
+
+1791010940 c:\users\chekw\dev\studentgrader\graduatestudent.h
+	"Student.h"
+
+1791010765 source:c:\users\chekw\dev\studentgrader\graduatestudent.cpp
+	"GraduateStudent.h"
+	<stdexcept>
+
+1791049123 c:\users\chekw\dev\studentgrader\course.h
+	<string>
+	<vector>
+	<memory>
+	"Student.h"
+	"GraduateStudent.h"
+
+1791049120 source:c:\users\chekw\dev\studentgrader\course.cpp
+	"Course.h"
+	<iostream>
+	<algorithm>
+	<map>
+	<stdexcept>
+	<fstream>
+
